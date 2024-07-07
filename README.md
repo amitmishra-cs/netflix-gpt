@@ -1,4 +1,8 @@
 # NetflixGPT
+-Craete React App
+-Configured Talwind Css
+-Headers
+-Login form
 
 ## Features
 
