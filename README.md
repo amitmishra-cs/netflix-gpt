@@ -3,6 +3,7 @@
 - Configured Talwind Css
 - Headers
 - Login form
+- Sign up Form
 
 ## Features
 
