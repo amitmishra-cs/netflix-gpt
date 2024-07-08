@@ -2,8 +2,19 @@
 - Craete React App
 - Configured Talwind Css
 - Headers
+- Roting of App
 - Login form
 - Sign up Form
+- Form Validation
+- UsEREF Hook
+- Firebase setup
+- Deploying or production
+- Create signUp user Account
+- Implement Sign In User Api 
+- Created Redux Store with User Slice 
+- Implemented Sign Out 
+- Update Profile 
+- Fetch Movies 
 
 ## Features
 
