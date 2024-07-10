@@ -15,6 +15,10 @@
 - Implemented Sign Out 
 - Update Profile 
 - Fetch Movies 
+- BugFix : Sign up user display and profile update 
+- unsubcribe to the onAuthStateChange call Back
+- Add Hard Coded Value IN constant File 
+-  
 
 ## Features
 

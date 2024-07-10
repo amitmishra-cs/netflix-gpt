@@ -8,13 +8,14 @@ import {
 import { auth } from "../utils/firebase.js";
 import { addUser } from "../utils/userSlice.js";
 import Header from "./Header";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
+import { USER_AVATAR } from "../utils/constant.js";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
   const [errorMessage, seterrorMessage] = useState(null);
-  const navigate = useNavigate();
+  //   const navigate = useNavigate();
   const dispatch = useDispatch();
 
   const name = useRef(null);
@@ -38,8 +39,7 @@ const Login = () => {
 
           updateProfile(user, {
             displayName: name.current.value,
-            photoURL:
-              "https://avatars.githubusercontent.com/u/135753608?s=48&v=46",
+            photoURL: USER_AVATAR,
           })
             .then(() => {
               const { uid, email, displayName, photoURL } = auth.currentUser;
@@ -49,16 +49,16 @@ const Login = () => {
                   email: email,
                   displayName: displayName,
                   photoURL: photoURL,
-                })   
+                })
               );
-              navigate("/browse");
+              //   navigate("/browse");
             })
             .catch((error) => {
               seterrorMessage(error.message);
             });
 
-          console.log(user);
-          navigate("/browse");
+          //console.log(user);
+          //   navigate("/browse");
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -76,7 +76,7 @@ const Login = () => {
         .then((userCredential) => {
           const user = userCredential.user;
           console.log(user);
-          navigate("/browse");
+          //   navigate("/browse");
         })
         .catch((error) => {
           const errorCode = error.code;
