@@ -29,6 +29,10 @@
 -  Embdded the yoytube video and make it auto Play 
 -  Taliwindd css class to make it look awseome
 -  Build Secoundry Component 
+-  Build the movie list 
+-  Build Move Crad
+-  Found out tmdb image Cdn URL
+-  usePopular Movie Coustam Hook  
 
 ## Features
 
