@@ -28,6 +28,7 @@
 -  Update store with transfer Video Data
 -  Embdded the yoytube video and make it auto Play 
 -  Taliwindd css class to make it look awseome
+-  Build Secoundry Component 
 
 ## Features
 
