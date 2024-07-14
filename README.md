@@ -18,7 +18,16 @@
 - BugFix : Sign up user display and profile update 
 - unsubcribe to the onAuthStateChange call Back
 - Add Hard Coded Value IN constant File 
--  
+-  Register TMDB API & Create an app & get token 
+-  Get List Tmdb Movie Api
+-  CustomHook for now playing movies
+-  Update Store Movie data
+-  Create Movieslice
+-  Plainning for Main Container & Secondery Container
+-  Fetch Data for Trailer Video
+-  Update store with transfer Video Data
+-  Embdded the yoytube video and make it auto Play 
+-  Taliwindd css class to make it look awseome
 
 ## Features
 
