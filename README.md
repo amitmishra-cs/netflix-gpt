@@ -33,6 +33,10 @@
 -  Build Move Crad
 -  Found out tmdb image Cdn URL
 -  usePopular Movie Coustam Hook  
+-  GPT Search Page
+-  GPT Search Bar
+-  (Multi Languge Feature in our Page )
+-  Integrate GPT API()
 
 ## Features
 
